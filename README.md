@@ -39,7 +39,7 @@ zero silent leaks into Gold. Details in [docs/02](docs/02-medallion-architecture
 | Medallion pipeline (Bronze/Silver/Gold) | `databricks/` | [docs/02-...](docs/...) |
 | Analytical SQL views | `analytics/` | [docs/03-...](docs/...) |
 | Power BI dashboard | `assets/` | Import mode over Gold views — rationale in [docs/04](docs/04-powerbi-dashboard.md) |
-| FinOps estimate | `docs/04-finops.md` | — |
+| FinOps estimate | `docs/05-finops.md` | [docs/05](docs/05-finops.md)  |
 
 ## Production considerations
 
