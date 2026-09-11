@@ -7,7 +7,7 @@ dashboard with tariff what-if scenarios.
 
 ## Architecture
 
-![Pipeline OCM → Power BI](assets\pipeline.drawio.svg)
+![Pipeline OCM → Power BI](assets/pipeline.drawio.svg)
 
 **Data volume per layer:**
 
