@@ -6,9 +6,18 @@ dashboard with tariff what-if scenarios.
 ![Power BI — Overview](assets/dashboard_1_overview.png)
 
 ## Architecture
-[diagram draw.io: OCM+generator → Delta Bronze → Silver → Gold → SQL views → Power BI]
-+ one line per layer with numbers: 80.8k raw → 80.0k deduped → 78.4k clean,
-  3% anomaly budget reconciled across layers.
+
+![Pipeline OCM → Power BI](assets\pipeline.drawio.svg)
+
+**Data volume per layer:**
+
+| Layer | Records | Change |
+|---|---:|---:|
+| Bronze (raw) | 80.8k | — |
+| Silver (deduped) | 80.0k | −1.0% |
+| Gold (clean) | 78.4k | −2.0% |
+
+**Anomaly budget:** ~3% of records reconciled across layers.
 
 ## Key insights
 
